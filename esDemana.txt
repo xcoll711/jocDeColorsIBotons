@@ -1,0 +1,37 @@
+Aquesta tasca consisteix a implementar un joc a on s’ha de poder generar una combinació de dos
+colors (vermell i blau) i provar de trobar la combinació secreta generada aleatòriament
+Així, en aquest joc, tens un parell de botons que podran ser vermells o blaus i el teu objectiu és
+endevinar la combinació secreta generada aleatòriament, actualitzant adequadament la informació
+que apareix al navegador.
+
+Instruccions
+1. S’ha de crear un projecte amb tres fitxers: index.html, style.css i script.js.
+    ● Els fitxers index.html i style.css se't faciliten i venen ja implementats.
+    ● El fitxer script.js és el que has de crear i farcir amb un magnífic codi en JavaScript.
+2. En obrir l'arxiu 'index.html' en el teu navegador web (o en actualitzar la pantalla amb F5, per
+    exemple) s’ha de veure una pantalla amb dos quadrats, ambdós de color vermell, així com
+    altres dos botons: "Jugar" i "Provar", aquest últim ha d’estar deshabilitat.
+3. Si es fa clic al botó "Jugar" comença el joc:
+    ● Aquest botó es desactivarà.
+    ● El botó "Provar" s'activarà.
+    ● Es genera una combinació de dos colors aleatòria. Aquesta combinació serà una
+        cadena amb els noms dels colors separats per un espai en blanc. Pot contenir
+        “vermell” i “blau” en diferents posicions (p. ex. “vermell vermell”, “blau vermell”, etc.).
+4. Es podrà fer clic als quadrats vermells i blaus per canviar el seu estat, és a dir, si un quadrat
+    està en estat "blau" passarà a “vermell”.
+5. Un cop hagis seleccionat la teva combinació, fes clic al botó "Provar" per comprovar si la
+    combinació és correcta.
+● El programa verificarà si la combinació que has provat coincideix amb la combinació
+    secreta generada aleatòriament.
+    ● Si la combinació és correcta:
+        ○ Incrementaràs el nombre d'encerts. La informació de la partida es mostrarà
+            actualitzada, indicant el nombre d'encerts, el nombre d'intents realitzats i el
+            nombre total de partides jugades.
+        ○ Aquest botó es desactivarà.
+    ○ El botó “Jugar” s’activarà.
+
+6. Tindràs l'oportunitat de jugar novament fent clic al botó "Jugar" per generar una nova
+combinació de colors.
+
+Restriccions
+No pots modificar el fitxer index.html ni el fitxer style.css.
